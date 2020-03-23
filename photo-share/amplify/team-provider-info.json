@@ -1,15 +1,20 @@
 {
-    "develop": {
+    "master": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-photo-share-develop-132101-authRole",
-            "UnauthRoleArn": "arn:aws:iam::145643623466:role/amplify-photo-share-develop-132101-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::145643623466:role/amplify-photo-share-develop-132101-authRole",
+            "AuthRoleName": "amplify-photo-share-master-144002-authRole",
+            "UnauthRoleArn": "arn:aws:iam::145643623466:role/amplify-photo-share-master-144002-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::145643623466:role/amplify-photo-share-master-144002-authRole",
             "Region": "ap-northeast-1",
-            "DeploymentBucketName": "amplify-photo-share-develop-132101-deployment",
-            "UnauthRoleName": "amplify-photo-share-develop-132101-unauthRole",
-            "StackName": "amplify-photo-share-develop-132101",
-            "StackId": "arn:aws:cloudformation:ap-northeast-1:145643623466:stack/amplify-photo-share-develop-132101/6a5c96c0-6b2b-11ea-a0fd-0a9b6e22c78e",
-            "AmplifyAppId": "dudvio56jxza8"
+            "DeploymentBucketName": "amplify-photo-share-master-144002-deployment",
+            "UnauthRoleName": "amplify-photo-share-master-144002-unauthRole",
+            "StackName": "amplify-photo-share-master-144002",
+            "StackId": "arn:aws:cloudformation:ap-northeast-1:145643623466:stack/amplify-photo-share-master-144002/6ae770a0-6b36-11ea-8b14-06ef10f7e39e",
+            "AmplifyAppId": "d1j1dj6r0cc1u8"
+        },
+        "categories": {
+            "auth": {
+                "photosharec763ba20": {}
+            }
         }
     }
 }

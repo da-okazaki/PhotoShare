@@ -1,5 +1,6 @@
 import React from 'react';
 import { Redirect, Route } from 'react-router-dom';
+
 import {
   IonApp,
   IonIcon,
@@ -34,6 +35,10 @@ import '@ionic/react/css/display.css';
 /* Theme variables */
 import './theme/variables.css';
 
+/* AWS Amplify */
+import Amplify, { Auth } from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react';
+
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
@@ -63,4 +68,4 @@ const App: React.FC = () => (
   </IonApp>
 );
 
-export default App;
+export default withAuthenticator(App);
